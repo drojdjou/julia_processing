@@ -6,7 +6,16 @@ void setup() {
 void draw() {
  stroke(#6B116B);
   fill(#DE3C77);
-  ellipse(mouseX,mouseY,40,40);
+ if(mousePressed) {
+  ellipse(mouseX,mouseY,40,40);  
+ } 
+    //rect(mouseX,mouseY,100,50);
+    
  
-  //rect(mouseX,mouseY,100,50);
+ 
+ 
+  
+ 
+ 
 }
+
